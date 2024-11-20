@@ -24,23 +24,19 @@ Projeto de automação agrícola utilizando ESP32 para monitoramento de temperat
 ## Conteúdo dos Arquivos
 1. sensors/__init__.py
    ```markdown
-    ```python
     Deixe este arquivo vazio. Ele apenas transforma o diretório sensors em um módulo Python.
 
 2. sensors/dht_sensor.py
    ```markdown
-    ```python
    Código para gerenciar o sensor DHT11 (temperatura e umidade):
 
 3. sensors/mqtt_client.py
    ```markdown
-    ```python
-    Código para gerenciar a comunicação MQTT
+   Código para gerenciar a comunicação MQTT
 
 4. main.py
    ```markdown
-    ```python
-    Código principal para integrar os sensores e o MQTT:
+   Código principal para integrar os sensores e o MQTT:
 
 
 
